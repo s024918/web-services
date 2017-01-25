@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE playlist [
+
+<!ELEMENT playlist (album+)>
+<!ELEMENT album (name, artist, genre, released, song+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT released (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT song (name, duration)>
+
+<!ATTLIST album lang CDATA #REQUIRED>
+<!ATTLIST song track CDATA #REQUIRED>
+
+]>
+
+<pl:playlist
+	xmlns:pl="http://www.album.lt/playlist"
+	xmlns:al="http://www.album.lt/album"
+	xmlns:so="http://www.album.lt/song">
+	<al:album lang="en">
+		<al:name>24K Magic</al:name>
+		<al:artist>Bruno Mars</al:artist>
+		<al:genre>Disco, Funk</al:genre>
+		<al:released>2016-11-18</al:released>
+		<so:song track="1">
+			<so:name>24K Magic lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="2">
+			<so:name>Perm lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="3">
+			<so:name>That's What I Like lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="4">
+			<so:name>Versace on the Floor lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="5">
+			<so:name>Straight Up Down lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+	</al:album>
+	<al:album lang="en">
+		<al:name>Starboy</al:name>
+		<al:artist>The Weeknd</al:artist>
+		<al:genre>Disco, Funk</al:genre>
+		<al:released>2016-11-18</al:released>
+		<so:song track="1">
+			<so:name>24K Magic lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="2">
+			<so:name>Perm lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="3">
+			<so:name>That's What I Like lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="4">
+			<so:name>Versace on the Floor lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="5">
+			<so:name>Straight Up Down lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+	</al:album>
+	<al:album lang="en">
+		<al:name>The Getaway</al:name>
+		<al:artist>Red Hot Chili Peppers</al:artist>
+		<al:genre>Disco, Funk</al:genre>
+		<al:released>2016-11-18</al:released>
+		<so:song track="1">
+			<so:name>24K Magic lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="2">
+			<so:name>Perm lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="3">
+			<so:name>That's What I Like lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="4">
+			<so:name>Versace on the Floor lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+		<so:song track="5">
+			<so:name>Straight Up Down lyrics</so:name>
+			<so:duration>4:52</so:duration>
+		</so:song>
+	</al:album>
+</pl:playlist>
